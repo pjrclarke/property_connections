@@ -18,10 +18,10 @@ body, html {
   font-weight: 400;
 }
 .navbar-nav .nav-item {
-  margin: 0 10px; /* Adjust spacing between items */
+  margin: 0 10px;
 }
 .navbar-brand img:hover {
-  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5)); /* Adjust shadow properties */
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5)); 
 }
 .navbar-nav .nav-link::after {
   content: "";
@@ -30,14 +30,14 @@ body, html {
   left: 0;
   width: 100%;
   height: 2px;
-  background-color: #023f84; /* Customize the color */
+  background-color: #023f84; 
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.3s ease;
 }
 
 .navbar-nav .nav-link:hover {
-  color: #621a66 !important ; /* Customize the color */
+  color: #621a66 !important ; 
 }
 
 .navbar-nav .nav-link:hover::after {
@@ -46,30 +46,58 @@ body, html {
 }
 
 .dropdown-menu {
-  background-color: #621a66; /* Background color */
-  border: 1px solid #023f84; /* Border */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+  background-color: #fff; 
+  border: 1px solid #023f84; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 .dropdown-item {
-  color: #fff; /* Text color */
-  padding: 10px 20px; /* Padding */
-  transition: background-color 0.2s; /* Transition effect */
+  color: #023f84; 
+  padding: 10px 20px;
+  transition: background-color 0.2s; 
 }
 
 .dropdown-item:hover {
-  background-color: #023f84; /* Hover background color */
-  color: #fff; /* Hover text color */
+  background-color: #023f84; 
+  color: #fff; 
+}
+@media (max-width: 992px) {
+  .navbar-collapse {
+      text-align: left;
+  }
+  .navbar-nav {
+      margin-left: auto;
+  }
+}
+/* COOKIE BANNER */
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  z-index: 4;
 }
 
+.button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  margin: 0 5px;
+}
 /* MAIN AREA */
 
 .custom-jumbotron {
   position: relative;
   margin: 0 auto; 
-  background-image: url('../images/computerchortle.jpg');
+  background-image: url('../images/computerchortle1.jpg');
   background-size: cover;
-  background-position: center 20%;
+  background-position: center 30%;
   color: white; 
   width: 100%;
   height: 600px;
@@ -81,8 +109,8 @@ body, html {
 .custom-jumbotron .container {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start !important; /* Align to the top */
-  align-items: flex-end !important; /* Align to the right */
+  justify-content: flex-start !important; 
+  align-items: flex-end !important;
   height: 100%;
   margin-right:30px;
 }
@@ -90,7 +118,7 @@ body, html {
 .custom-jumbotron h1 {
   font-family: 'Red Hat Display', sans-serif;
   font-weight: bold;
-  margin-bottom: 10px; /* Adjust margin as needed */
+  margin-bottom: 10px; 
 }
 
 .custom-jumbotron p {
@@ -117,7 +145,7 @@ body, html {
 /* icons under hero  */
 
 .text-color-primary {
-  color: #621a66; /* Custom primary color */
+  color: #621a66;
   filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
   margin-top:30px;
   transition: opacity 1s, transform 1s;
@@ -126,7 +154,7 @@ body, html {
   transform: scale(1.3);
 } 
 .text-color-secondary {
-  color: #023f84; /* Custom secondary color */
+  color: #023f84; 
   margin-bottom:30px;
 }
 
@@ -165,7 +193,7 @@ body, html {
 }
 
 .background-image {
-  padding: 100px; /* Adjust padding as needed */
+  padding: 100px; 
 }
 
 .left-animate {
@@ -205,12 +233,12 @@ body, html {
 }
 
 .modal-dialog {
-  max-width: 80%; /* Adjust the width as needed */
+  max-width: 80%; 
   height:80vh;
 }
 
 .modal-content {
-  border: none; /* Remove borders if desired */
+  border: none;
 }
 
 .reviews-section {
@@ -230,10 +258,10 @@ body, html {
 .hero-image {
   position: relative;
   overflow: hidden;
-  background-image: url('../images/team.jpg'); /* Replace with the actual image path */
-  background-size: cover; /* This ensures the image covers the entire container */
-  background-position: center top -50px; /* Center the image within the container */
-  height: 800px; /* Adjust the desired height of the hero image */
+  background-image: url('../images/team1.jpg'); 
+  background-size: cover; 
+  background-position: center top -50px; 
+  height: 800px; 
 }
 
 .gradient-overlay {
@@ -254,8 +282,8 @@ body, html {
 }
 
 .team-member img {
-  width: 300px; /* Adjust the width as needed */
-  height: auto; /* Adjust the height as needed */
+  width: 300px; 
+  height: auto;
   border-radius: 50%;
   margin-top: 50px;
   transition: transform 0.3s ease-in-out;
@@ -273,8 +301,8 @@ body, html {
   font-size: 50px;
 }
 .team-member-img {
-  width: 300px; /* Adjust the width as needed */
-  height: auto; /* Adjust the height as needed */
+  width: 300px; 
+  height: auto; 
   border-radius: 50%;
   margin-left: 80px;
   margin-top: auto;
@@ -285,21 +313,31 @@ body, html {
 }
 /* FOOTER */
 .footer {
-  background-color: rgba(0, 0, 0, 0); /* Transparent background */
-  color: #023f84; /* Light text color */
+  background-color: rgba(0, 0, 0, 0);
+  color: #023f84; 
   padding: 40px 0;
 }
 
 .footer a {
-  color: #023f84; /* Default link color */
+  color: #023f84; 
   text-decoration: none;
-  transition: color 0.3s; /* Smooth color transition */
+  transition: color 0.3s; 
 }
 
 .footer a:hover {
-  color: #621a66; /* Hover link color */
+  color: #621a66; 
 }
-
+.social-icon {
+  width: 100px; 
+  height: auto;
+  margin-bottom: 10px;
+  margin: 5px;
+  transition: opacity 1s, transform 2s;
+}
+.social-icon:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
 /* Phone Link Styling */
 .phone-link {
   color: #023f84;
@@ -317,7 +355,7 @@ body, html {
 }
 
 .social-links a {
-  margin-bottom: 10px; /* Add spacing between icons */
+  margin-bottom: 10px; 
 }
 
 hr {
@@ -342,4 +380,85 @@ hr {
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.extra-div-for-small-screens {
+  display: none;
+}
+
+#thank-you-message {
+  display: none;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 20px;
+}
+#thank-you-message-valuation {
+  display: none;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 20px;
+  color:#333
+}
+#loading-gif {
+  display: none;
+  max-width: 100px; 
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  footer {
+    margin-top: 270px;
+  }
+  .hidden-content {
+    display: none;
+  }
+  .custom-jumbotron .container {
+    align-items: center !important;
+  }
+  .extra-div-for-small-screens {
+    display: block;
+    background-image: url('../images/edinburgh-buildings.jpg');
+    background-size: cover;
+    overflow: hidden;
+  }
+   .opaque-background {
+    background-color: rgba(255, 255, 255, 0.8);
+      padding: 20px; 
+      border-radius: 10px; 
+      margin-bottom: 20px; 
+  }
+  .hero-image {
+      background-size: 120% auto;
+      background-repeat: no-repeat;
+      height:400px;
+  }
+  .gradient-overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to bottom, rgba(255, 255, 255, 0)75%, rgba(255, 255, 255, 1)100%);
+      pointer-events: none;
+    }
+  .team-section {
+    padding:0;
+    margin:0;
+  }
+  .justify-content-center {
+    margin:0 !important;
+  }
+  #map {
+    margin-bottom:20px;
+  }
+  .team-member-img {
+    margin:0;
+    margin-bottom:20px
+  }
+  .modal-dialog {
+    max-width:100% !important;
+    height:auto;
+  }
 }
