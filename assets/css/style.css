@@ -61,14 +61,7 @@ body, html {
   background-color: #023f84; 
   color: #fff; 
 }
-@media (max-width: 992px) {
-  .navbar-collapse {
-      text-align: left;
-  }
-  .navbar-nav {
-      margin-left: auto;
-  }
-}
+
 /* COOKIE BANNER */
 .cookie-banner {
   position: fixed;
@@ -394,6 +387,7 @@ hr {
   text-align: center;
   margin-top: 20px;
 }
+
 #thank-you-message-valuation {
   display: none;
   padding: 20px;
@@ -403,10 +397,20 @@ hr {
   margin-top: 20px;
   color:#333
 }
+
 #loading-gif {
   display: none;
   max-width: 100px; 
   height: auto;
+}
+
+@media (max-width: 992px) {
+  .navbar-collapse {
+      text-align: left;
+  }
+  .navbar-nav {
+      margin-left: auto;
+  }
 }
 
 @media (max-width: 768px) {
