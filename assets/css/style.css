@@ -465,4 +465,25 @@ hr {
     max-width:100% !important;
     height:auto;
   }
+  .custom-jumbotron h1 {
+    text-align: right;
+    font-size: 20px;
+  }
+  
+  .custom-jumbotron p {
+    text-align: right;
+    font-size: 15px;
+    
+  }
+  .property-color {
+    font-size: 30px;
+  }
+  
+  .connections-color {
+    font-size: 30px;
+  }
+  .custom-jumbotron {
+  background-size: cover;
+  background-position: 43%;
+}
 }
