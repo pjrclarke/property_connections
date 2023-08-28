@@ -155,15 +155,15 @@ body, html {
 /* Section under hero */
 
 .full-width-section {
-  background-image: url('../images/edinburgh.jpg');
-  background-position: center 20%;
+  background-image: url('../images/ninians.jpg');
+  background-position: center;
   background-size: cover;
   height: 400px;
 }
 
 .full-width-section-2 {
-  background-image: url('../images/edinburgh-buildings.jpg');
-  background-position: center 20%;
+  background-image: url('../images/BlacknessHouse1.jpg');
+  background-position: center;
   background-size: cover;
   height: 400px;
 }
