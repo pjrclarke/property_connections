@@ -426,9 +426,10 @@ hr {
   }
   .extra-div-for-small-screens {
     display: block;
-    background-image: url('../images/edinburgh-buildings.jpg');
+    background-image: url('../images/blacknesshouse.jpg');
     background-size: cover;
     overflow: hidden;
+    background-position: center;
   }
    .opaque-background {
     background-color: rgba(255, 255, 255, 0.8);
