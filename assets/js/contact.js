@@ -1,6 +1,6 @@
 function sendContact(contactForm) {
     document.getElementById("loading-gif").style.display = "block";
-    emailjs.send("service_gxyzfa8r", "template_cr35n9k", {
+    emailjs.send("service_gxyzfa8", "template_cr35n9k", {
         "first_name": contactForm.first_name.value,
         "surname":  contactForm.surname.value,
         "email": contactForm.email.value,

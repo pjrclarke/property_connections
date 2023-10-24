@@ -2,7 +2,7 @@ function sendValuation(contactForm) {
 
     document.getElementById("loading-gif").style.display = "block";
 
-    emailjs.send("service_uxofd7r", "template_rsdglqi", {
+    emailjs.send("service_gxyzfa8", "template_rsdglqi", {
         "first_name": contactForm.first_name.value,
         "surname":  contactForm.surname.value,
         "email": contactForm.email.value,
