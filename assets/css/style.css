@@ -31,6 +31,7 @@ html {
   height: auto;
   font-weight: 700;
   font-size: 15px;
+  letter-spacing: 2px;
 
 }
 
@@ -434,7 +435,10 @@ hr {
   .navbar-collapse {
     text-align: left;
   }
-
+ .nav-mobile {
+  display: flex!important;
+  justify-content: center!important;
+ }
   .navbar-nav {
     margin-left: auto;
   }
